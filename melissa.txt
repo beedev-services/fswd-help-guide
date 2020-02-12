@@ -1,0 +1,36 @@
+Contributions by Melissa Longenberger
+
+HTML:
+    1.  tags that don't need ending/closing tags
+        1. <!DOCTYPE html>
+        2. <br>
+        3. <img src="">
+
+CSS:
+    1. when using mixins be sure there is no space between name and ()
+        1. example: .flexrow();
+
+Java Script:
+
+Github and git flow:
+    1. after forking repository copy clone link to download to local drive
+    2. ctrl + v doesn't always work on some systems within the terminal you might need to use ctrl + shift + v to paste.
+    3. Git commands in terminal:
+        1. git clone <file address> = this allows you to clone to local drive
+        2. cd <folder name> = takes you to the specified folder
+        3. ls = lists the items in the folder you are after
+        4. cd .. = takes you up one folder
+        5. cd ~ = takes you to the base or main starting folder
+        6. touch <file name> = adds said file to the folder your are in
+        7. rm <file name> = removes said file but wil not ask if you are sure
+        8. mkdir <folder name> = makes a folder in the current folder location
+        9. rmdir <folder name> = will remove a folder with out asking but only if said folder is empty
+        10. git checkout -b <name>  = adds a branch to the repository
+        11. git checkout <file name> = removes a deleted item from the commit log
+        12. git add <file name> = adds a file to be logged or added togithub
+        13. git commit -m "<make comments>" = places a saved commit log for all files added and leaves a comments
+        14. git push origin <branch name> = pushes the local files to github into the branch listed.  Use master for main branch or just git push for no branches made other wise use branch name
+
+
+
+
