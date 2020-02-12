@@ -10,8 +10,6 @@ CSS:
     1. when using mixins be sure there is no space between name and ()
         1. example: .flexrow();
 
-Java Script:
-
 Github and git flow:
     1. after forking repository copy clone link to download to local drive
     2. ctrl + v doesn't always work on some systems within the terminal you might need to use ctrl + shift + v to paste.
@@ -30,6 +28,14 @@ Github and git flow:
         12. git add <file name> = adds a file to be logged or added togithub
         13. git commit -m "<make comments>" = places a saved commit log for all files added and leaves a comments
         14. git push origin <branch name> = pushes the local files to github into the branch listed.  Use master for main branch or just git push for no branches made other wise use branch name
+        15. git status = gives you a list of items that have been changed since the last commit with in the git dir
+        16. code <file name> = will open the said file in local IDE
+
+File extentions:
+    1. name.html = a web page file
+    2. name.css = css file will be linked in the html file in the head tag
+    3. name.less = another form of css but has nesting and other components is easier to write and compiles the .css for you if set up right
+    4. name.js = Java Script file will be linked to the html file at the end of the body
 
 
 
