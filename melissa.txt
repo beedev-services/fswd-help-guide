@@ -9,6 +9,20 @@ HTML:
 CSS:
     1. when using mixins be sure there is no space between name and ()
         1. example: .flexrow();
+    2. mixins:
+        1. set of styles that are used often. Set up so that you just enter the mixin name and it will pull all the styling when compiled
+        2. used in .less documents
+        3. example = .flexrow {display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-direction: row;}
+
+                    When used later in the .less document it will look like this = .style {.flexrow();}
+    3. variables:
+        1. a single line of styling that is used with in a class style
+        2. example = @border: 4px groove @brown;
+
+                    when used laster in the .less document it will look like this = .style {}
 
 Github and git flow:
     1. after forking repository copy clone link to download to local drive
